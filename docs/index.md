@@ -1,11 +1,16 @@
 
 
+
 <figure markdown="span">
-  ![版权持有者](./image/logo.png){  align="left"}
+  ![logo](./image/tkinter.jpeg)
+  <figcaption>Python GUI</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![版权持有者](./image/logo.png)
   <figcaption>版权持有者 John W. Shipman</figcaption>
 </figure>
 
-![logo](./image/tkinter.jpeg){ width="300", align="left"}
 
 
 **翻译前置约定**

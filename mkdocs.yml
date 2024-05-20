@@ -13,6 +13,7 @@ nav:
     - 第2节：一个最小的应用程序: 002.md
     - 第3节：术语定义: 003.md
     - 第4节：布局管理: 004.md
+    - 第5节：标准属性(attributes): 005.md
 theme:
   logo: image/tkinter.jpeg
   name: material
@@ -68,12 +69,52 @@ markdown_extensions:
 
 plugins:
   - glightbox
+  - search
+  # - with-pdf
+        #author: WHO
+        #copyright: ANY TEXT
+        #
+        #cover: false
+        #back_cover: true
+        #cover_title: TITLE TEXT
+        #cover_subtitle: SUBTITLE TEXT
+        #custom_template_path: TEMPLATES PATH
+        #
+        #toc_title: TOC TITLE TEXT
+        #heading_shift: false
+        #toc_level: 3
+        #ordered_chapter_level: 2
+        #excludes_children:
+        #    - 'release-notes/:upgrading'
+        #    - 'release-notes/:changelog'
+        #
+        #exclude_pages:
+        #    - 'bugs/'
+        #    - 'appendix/contribute/'
+        #convert_iframe:
+        #    - src: IFRAME SRC
+        #      img: POSTER IMAGE URL
+        #      text: ALTERNATE TEXT
+        #    - src: ...
+        # two_columns_level: 3
+        #
+        #render_js: true
+        #headless_chrome_path: headless-chromium
+        #
+        #output_path: any-place/document.pdf
+        #enabled_if_env: ENABLE_PDF_EXPORT
+        #
+        #debug_html: true
+        #show_anchors: true
+        #verbose: true 
+  # - pdf-export:
+  #     verbose: true
+  #     combined: true
+  #     enabled_if_env: ENABLE_PDF_EXPORT  
 
 extra:
   generator: false
   disqus: golang-cookbook
 # https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
 # pip install mkdocs-pdf-export-plugin
-# plugins:
-#     - pdf-export:
-#         combined: true         
+       
